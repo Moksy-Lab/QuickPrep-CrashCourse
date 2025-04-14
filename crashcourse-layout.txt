@@ -1,0 +1,89 @@
+navbar = nanny
+hero = hand 
+Crash Course Overview = X
+features = fling
+steps = summer
+Curriculum Snapshot = x 
+Who Should Enroll = x
+teams = tense 
+roadmap = ryan 
+services = simon
+testimonials = texor
+pricing = puali 
+countdown = camel
+Certification Information = x
+faqs = fickle
+banner = balor 
+Money-Back Guarantee (if any) = x 
+cta = charold 
+contacts = covel 
+footers = foist
+
+
+
+3. Crash Course – A condensed, rapid-learning course on a subject.
+1. Navbar
+Logo, anchor links (About, Curriculum, Pricing), and a clear CTA like “Start Learning” or “Enroll Now”.
+
+2. Hero Section
+Bold headline explaining the crash course’s value (e.g., “Master Digital Marketing in Just 7 Days!”) with a strong CTA button.
+
+3. Crash Course Overview
+Quick summary explaining what the course is, who it's for, and what problem it solves.
+
+4. Key Benefits
+List of outcomes or skills learners will gain, often presented as quick icons or bullet points.
+
+5. How It Works / Quick Steps
+Simple 3-5 step process: Enroll → Watch Lessons → Complete Exercises → Get Certified.
+
+6. Curriculum Snapshot
+Concise outline of the main topics or modules included, highlighting how compact and focused it is.
+
+7. Who Should Enroll
+A short section describing the ideal learner (e.g., beginners, professionals needing a quick refresh).
+
+8. Instructor Bio
+Photo, name, credentials, and a few lines about the instructor’s expertise.
+
+9. Time Commitment / Course Length
+Very important for a crash course—explain the total time needed to complete it (e.g., "Complete in just 10 hours!").
+
+10. Immediate Outcomes
+Bullet points showing what learners will be able to do right after finishing the course.
+
+11. Student Testimonials
+Short quotes, star ratings, or quick feedback from past students who completed the crash course.
+
+12. Pricing Details
+Transparent pricing, with mention of limited-time discounts if available.
+
+13. Limited Offer / Urgency Banner
+Countdown timer or “Enroll before [date] to save 30%!” to push faster decisions.
+
+14. Certification Information
+Mention if learners get a digital certificate upon completion, which adds credibility.
+
+15. Bonus Material
+List any extras like cheat sheets, templates, or free e-books included with the course.
+
+16. Mobile-Friendly Assurance
+Mention that learners can access the crash course easily on mobile devices.
+
+17. FAQs
+Answer quick questions about access duration, refunds, technical requirements, etc.
+
+18. Quick Demo or Preview
+Optional short video or screenshots giving a glimpse of the course material or platform.
+
+19. Money-Back Guarantee (if any)
+Add reassurance by offering a risk-free trial or 7-day money-back guarantee.
+
+20. Final CTA Section
+Reinforce the value and drive one last “Start Now” or “Enroll Today” action.
+
+21. Contact Section
+Provide support contact options (email, live chat) if students have last-minute questions.
+
+22. Footer
+Logo, quick links, social media icons, legal (Privacy Policy, Terms & Conditions).

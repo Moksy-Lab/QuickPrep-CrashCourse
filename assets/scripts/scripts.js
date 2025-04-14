@@ -1,38 +1,36 @@
-{
-           "@context": "http://www.schema.org",
-           "@type": "ProfessionalService",
-           "name": "QuickPrep",
-           "title": "QuickPrep - Online Learning for Career Achievement",
-           "url": "/",
-           "sameAs": [
-              ""
-           ],
-           "logo": "https://moksy.com/api/build/uploads/84822624/uploads/logo.png",
-           "priceRange": "$$$",
-           "image": "https://moksy.com/api/build/uploads/84822624/uploads/socialshare.png",
-           "description": "Achieve career achievement with online learning from QuickPrep. Explore our courses and start your journey today.",
-           "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "3-5, Marco Polo House, Lansdowne Road",
-              "addressLocality": "London",
-              "addressRegion": "Surrey",
-              "postalCode": "CR0 2BX",
-              "addressCountry": "United Kingdom"
-           },
-           "email": "support@moksy.com",
-           "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "51.37683",
-              "longitude": "-0.09728"
-           },
-           
-           "openingHours": "Mo 09:00-17:00 Tu 09:00-17:00 We 09:00-17:00 Th 09:00-17:00 Fr 09:00-17:00",
-           "telephone": "+44 0808 175 1749",
-           "aggregateRating": {
-                 "@type": "AggregateRating",
-                 "ratingValue": "",
-                 "ratingCount": ""
-               },
-          "datePublished": ""
-         }
-Value for custom_js_code
+document.addEventListener("DOMContentLoaded", function() {
+   let comingDate = new Date('Feb 8, 2035 13:12:00') // Future date
+
+   let d = document.getElementById('days')
+   let h = document.getElementById('hours')
+   let m = document.getElementById('minutes')
+   let s = document.getElementById('seconds')
+
+   let x = setInterval(function() {
+     let now = new Date()
+     let selisih = comingDate.getTime() - now.getTime()
+
+     let days = Math.floor(selisih / (1000 * 60 * 60 * 24))
+     let hours = Math.floor(selisih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
+     let minutes = Math.floor(selisih % (1000 * 60 * 60) / (1000 * 60))
+     let seconds = Math.floor(selisih % (1000 * 60) / 1000)
+
+     d.innerHTML = getTrueNumber(days)
+     h.innerHTML = getTrueNumber(hours)
+     m.innerHTML = getTrueNumber(minutes)
+     s.innerHTML = getTrueNumber(seconds)
+
+     if (selisih < 0) {
+       clearInterval(x)
+       d.innerHTML = '00'
+       h.innerHTML = '00'
+       m.innerHTML = '00'
+       s.innerHTML = '00'
+     }
+   }, 1000)
+
+   function getTrueNumber(x) {
+     if (x < 10) return '0' + x
+     else return x
+   }
+ });
