@@ -506,7 +506,7 @@
 
 .simonService .serviceBox .service-icon i{
     font-size:30px;
-    color: var(--dark);
+    color: var(--white);
     line-height: 70px;
 }
 .simonService .serviceBox .service-content {
