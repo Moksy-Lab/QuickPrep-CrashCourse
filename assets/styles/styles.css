@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap');
+
 /* #nanny(nannyNavbar) #css starts */
 .nannyNavbar .navbar{
     display: contents !important;
@@ -1110,33 +1112,22 @@ h2 {
 
 
 :root {
-  --primary_color: #3B3782;
-  --secondary_color: #6e6ab5;
-  --tertiary_color: #08044f;
-  --default_color: #f7f7f7;
-  --default_text_color: #0d0d0d;
-  --accent_color: #28A745;
-  --alert_color: #DC3545;
-  --warning_color: #FFC107;
+    --primary: #00A2FF;
+    --secondary: #007ACC;
+    --tertiary: #005F99;
+    --white: #F5F5F5;
+    --dark: #353535;
+    --alert: #D32F2F;
+    --warning: #FFA000;
+    --success: #4CAF50;
+    --info: #2196F3;
+    --disabled: #BDBDBD;
+    --hover: #0086CC;
+    --shadow: rgba(0, 0, 0, 0.2);
 }
-.primary_font-font {
-  font-family: Oswald;
-  font-style: normal;
-}
-.secondary_font-font {
-  font-family: Mulish;
-  font-style: normal;
-}
-.tertiary_font-font {
-  font-family: Roboto;
-  font-style: normal;
-}
-.default_font-font {
-  font-family: Verdana;
-  font-style: normal;
-}
+
 body {
-  font-family: Verdana;
+    font-family: "Special Gothic", sans-serif;
   font-size: 16px;
   color: #0d0d0d;
   background-color: #f7f7f7;
@@ -1160,7 +1151,7 @@ ul, ol {
 }
 li {
   margin-bottom: 10px;
-  font-family: Mulish;
+  
 }
 img {
   max-width: 100%;
@@ -1177,7 +1168,7 @@ th, td {
   border: 1px solid #08044f;
   padding: 10px;
   text-align: left;
-  font-family: Mulish;
+  
 }
 th {
   background-color: #6e6ab5;
@@ -1200,7 +1191,7 @@ margin-top: 0px;
 section.footer {
 margin: 0px !important; padding: 0px !important;}
 h1 {
-  font-family: Oswald;
+  
   font-size: 36px;
   font-weight: bold;
   color: #3B3782;
@@ -1216,7 +1207,7 @@ h1.special {
   text-transform: uppercase;
 }
 h2 {
-  font-family: Oswald;
+  
   font-size: 30px;
   font-weight: semi-bold;
   color: #6e6ab5;
@@ -1232,7 +1223,7 @@ h2.special {
   text-transform: uppercase;
 }
 h3 {
-  font-family: Oswald;
+  
   font-size: 24px;
   font-weight: medium;
   color: #08044f;
@@ -1248,7 +1239,7 @@ h3.special {
   text-transform: uppercase;
 }
 p {
-  font-family: Mulish;
+  
   font-size: 15px;
   line-height: 1.5;
   color: #0d0d0d;
@@ -1263,7 +1254,7 @@ p.special {
 }
 .navbar {
   background-color: #3B3782;
-  font-family: Mulish;
+  
   color: #0d0d0d;
 }
 .navbar.branded {
