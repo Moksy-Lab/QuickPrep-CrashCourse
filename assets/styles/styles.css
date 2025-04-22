@@ -5,7 +5,7 @@
     display: contents !important;
 }
 .nannyNavbar .logo {
-    max-height: 50px
+    max-height: 140px
 }
 
 .nannyNavbar .navbar-open-icon {
@@ -1153,12 +1153,7 @@ li {
   margin-bottom: 10px;
   
 }
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
+
 table {
   width: 100%;
   border-collapse: collapse;
