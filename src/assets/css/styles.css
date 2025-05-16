@@ -1,14 +1,27 @@
 @import url(../styles/typography.css);
 @import url(../styles/layout.css);
 @import url(../styles/fonts.css);
-
+    :root {
+        --primary: #00A2FF;
+        --secondary: #007ACC;
+        --tertiary: #005F99;
+        --white: #F5F5F5;
+        --dark: #353535;
+        --alert: #D32F2F;
+        --warning: #FFA000;
+        --success: #4CAF50;
+        --info: #2196F3;
+        --disabled: #BDBDBD;
+        --hover: #0086CC;
+        --shadow: rgba(0, 0, 0, 0.2);
+    }
 
 /* #nanny(nannyNavbar) #css starts */
  .navbar{
     display: contents !important;
 }
 .nannyNavbar .logo {
-    max-height: 140px
+    max-height: 150px
 }
 
 .nannyNavbar .navbar-open-icon {
@@ -637,6 +650,24 @@ h2 {
 
 /* #puali(pualiPricing) #css ends  */
 
+/* #pluma(plumaPricing) #css starts  */
+.plumaPricing .price{
+    color:var(--primary);
+}
+.plumaPricing .btn{
+    background-color:var(--primary); 
+    border-radius: 30px;
+    font-weight: 600;
+ }
+ .plumaPricing .heading{ 
+    color:var(--primary)
+}
+.plumaPricing .icon{
+    font-size: 30px;
+    color: var(--primary);
+}
+/* #pluma(plumaPricing) #css ends  */
+
  /* #camel(camelCountdown) #css starts  */
  .camelCountdown .page {
     background: var(--white);
@@ -912,7 +943,7 @@ h2 {
   }
   
   .foistFooter .footer {
-      background-color: var(--disabled);
+      background-color: var(--white);
   }
   .foistFooter .footer-wave-svg {
       background-color: transparent;
